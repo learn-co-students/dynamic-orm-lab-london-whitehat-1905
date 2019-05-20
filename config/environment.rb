@@ -13,3 +13,6 @@ SQL
 
 DB[:conn].execute(sql)
 DB[:conn].results_as_hash = true
+
+matty = Student.new("Mat", 7)
+matty.save
